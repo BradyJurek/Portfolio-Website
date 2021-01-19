@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+
+
+/*------------HEADER --------------*/
+li, a, button {
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+
+}
+
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #1C1C1C;
+}
+
+header h2 {
+  color: #edf0f1;
+  margin-right: auto;
+  float: left;
+
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+/*------------ Front Page --------------*/
+
+#home {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 6rem;
+  background: #E0E0E0;
+}
+
+.image img {
+  width: 25vw;
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+span {
+  color: rgba(0, 136, 169, 1);
+}
+
+#home h3 {
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+
+/*------------ Front Page --------------*/
+
+#about {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#about h2 {
+  font-size: 35px;
+  margin: 4rem 0;
+  position: relative;
+}
+
+/*------------ About--------------*/
+
+#about .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper .content {
+  width: 50vw;
+  margin: 0 10%;
+}
+
+.wrapper h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.wrapper p {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.wrapper span a {
+  color: rgba(0, 136, 169, 1);
+}
+#about img {
+  margin-bottom: 100px;
+}
+
+ol {
+  margin: 10px 0;
+}
+
+ol li {
+  color: black;
+  list-style-position: inside;
+}
+
+/*------------ Contact --------------*/
+
+#contact {
+  display: grid;
+  place-items:center;
+  width: 100vw;
+  min-height: 100vh;
+  background: #E0E0E0;
+}
+
+#contact h2 {
+  font-size: 35px;
+  margin: 4rem 0;
+  position: relative;
+}
+
+#contact .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+}
+
+#contact .wrapper .info {
+  width: 20%;
+}
+#contact .wrapper .info .item {
+  margin: 2rem 0;
+}
+
+#contact .wrapper .info .item h3 {
+  font-size: 40px;
+  color: rgba(0, 136, 169, 1);
+  margin: 1rem 0;
+}
+
+.icons-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#contact span {
+  margin-left: 10px;
+  font-weight: normal;
+  color: black;
+}
+
+/*------------ Contact Form --------------*/
+
+#contact form {
+  width: 50vw;
+}
+#contact form .inputBox h3{
+  font-size: 22px;
+  color: black;
+  margin-bottom: 0
+}
+
+#contact form .inputBox input,textarea {
+  outline: none;
+  border: .2rem solid rgba(0, 136, 169, 1);
+  background: white;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  height: 4rem;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  padding: 1rem;
+  height: 20rem;
+}
+
+#contact button input {
+  background: none;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+/*------------ Footer --------------*/
+
+footer {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 40px;
+  background-color: #1C1C1C
+}
+
+footer h3 {
+  color: white;
+  font-size: 15px;
+}
+
+footer h3 span {
+  font-size: 20px;
+}
