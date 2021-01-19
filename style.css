@@ -1,3 +1,4 @@
+/*---Makes it so every element has no margin or padding and adds Lato Font to the elements---*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -22,6 +23,7 @@ header {
   align-items: center;
   padding: 30px 10%;
   background-color: #1C1C1C;
+  width: 100vw;
 }
 
 header h2 {
@@ -30,7 +32,7 @@ header h2 {
   float: left;
 
 }
-
+/*-------Creates the NAV bar on the right side of the header--------*/
 .nav-links {
   list-style: none;
 }
@@ -48,7 +50,8 @@ header h2 {
   color: #0088a9;
 }
 
-button {
+/*------------Creates the Buttons with the .btn class --------------*/
+.btn:link {
   margin-left: 20px;
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
@@ -57,13 +60,23 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
-
-button:hover {
+/*------------Makes the text black once visited --------------*/
+.btn:visited {
+  color: black;
+}
+/*------------Makes the background darker when hovering on it --------------*/
+.btn:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
-/*------------ Front Page --------------*/
+.btn:active {
+  background-color: rgba(0, 136, 169, 0.5);
+}
 
+
+/*------------ Front Page --------------*/
+/*------------ Sets width and height to the size of the viewport --------------*/
+/*-----------Also makes the two containers sit side by side-------------*/
 #home {
   min-height: 100vh;
   width: 100vw;
@@ -91,9 +104,8 @@ span {
   margin-bottom: 20px;
 }
 
-
-/*------------ Front Page --------------*/
-
+/*------------ About--------------*/
+/*-----------Makes the two containers sit side by side-------------*/
 #about {
   display: grid;
   place-items: center;
@@ -107,14 +119,12 @@ span {
   position: relative;
 }
 
-/*------------ About--------------*/
-
 #about .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-
+/*-----------Puts the about me paragraph container to 50% of the width of the screen -------------*/
 .wrapper .content {
   width: 50vw;
   margin: 0 10%;
@@ -137,6 +147,8 @@ span {
   margin-bottom: 100px;
 }
 
+/*---------Styles the Ordered List with margin and makes the numbers go inside the element with list-style....---------*/
+
 ol {
   margin: 10px 0;
 }
@@ -144,6 +156,10 @@ ol {
 ol li {
   color: black;
   list-style-position: inside;
+}
+
+.List {
+  margin-top: 20px;
 }
 
 /*------------ Contact --------------*/
@@ -162,6 +178,7 @@ ol li {
   position: relative;
 }
 
+/*--------Makes it so the two containers are side by side and sets a width of 90% of the page---------*/
 #contact .wrapper {
   display: flex;
   align-items: center;
@@ -194,7 +211,7 @@ ol li {
 }
 
 /*------------ Contact Form --------------*/
-
+/*-------Styles the contact form and sets the height and width of the form--------*/
 #contact form {
   width: 50vw;
 }
@@ -232,6 +249,24 @@ textarea {
   cursor: pointer;
   text-align: center;
 }
+
+/*-------Makes the submit input look like the rest of the buttons on the page-----------*/
+
+input[type="submit"] {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  height: 4rem;
+  width: 14rem;
+  color: white;
+  font-size: 20px;
+}
+
+
 
 /*------------ Footer --------------*/
 
