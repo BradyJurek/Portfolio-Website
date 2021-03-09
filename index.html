@@ -1,29 +1,162 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Brady Jurek</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/89c4613da5.js" crossorigin="anonymous"></script>
+    <script defer src=’https://use.fontawesome.com/releases/v5.0.6/js/all.js'></script>
+  </head>
+  <body>
+    <!-- HEADER / NAV BAR -->
+      <header>
+        <h2 class="name">BRADY JUREK</h2>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
+        <!-- btn class makes the element look like a button with css -->
+        <a class="btn" href="#contact">Contact</a>
+      </header>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Joey Thinkful : Software Developer</title>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-</head>
+      <!-- MAIN PAGE/ INTRO -->
 
-<body>
+    <main id="home">
+     <div class="content">
+      <h1>Hello World, <br>
+        <!-- Added span around some words to style them Blue with CSS -->
+      I am <span>Brady</span>.</h1>
+      <h3>I'm an entry-level <span>Front-End Web Developer</span> based out of <span>Tucson, AZ</span>. <br> I create custom websites to help businesses improve online.</h3>
+      <a href="#portfolio" class="btn">Projects</a>
+    </div>
+    <div class="image">
+      <img src="images/myself.jpg" alt="Picture of Brady">
+    </div>
+    </main>
+    <hr>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="container">
+        <div class="item">
+          <a href="https://github.com/BradyJurek" target="_blank"><img src="images/tba.jpg" alt="Coming soon"></a>
+          <h3>Project Title 1</h3>
+          <p>This project does... I made this project for... I built this project because... The languages I used was HTML, CSS, and Javascript</p>
+          <a class="live-link" href="#">Live Link</a>
+        </div>
+        <div class="item">
+          <a href="https://github.com/BradyJurek" target="_blank"><img src="images/tba.jpg" alt="Coming soon"></a>
+          <h3>Project Title 2</h3>
+          <p>This project does... I made this project for... I built this project because... The languages I used was HTML, CSS, and Javascript</p>
+          <a class="live-link" href="#">Live Link</a>
+        </div>
+        <div class="item">
+          <a href="https://github.com/BradyJurek" target="_blank"><img src="images/tba.jpg" alt="Coming soon"></a>
+          <h3>Project Title 3</h3>
+          <p>This project does... I made this project for... I built this project because... The languages I used was HTML, CSS, and Javascript</p>
+          <a class="live-link" href="#">Live Link</a>
+        </div>
+        <div class="item">
+          <a href="https://github.com/BradyJurek" target="_blank"><img src="images/tba.jpg" alt="Coming soon"></a>
+          <h3>Project Title 4</h3>
+          <p>This project does... I made this project for... I built this project because... The languages I used was HTML, CSS, and Javascript</p>
+          <a class="live-link" href="#">Live Link</a>
+        </div>
+        <div class="item">
+          <a href="https://github.com/BradyJurek" target="_blank"><img src="images/tba.jpg" alt="Coming soon"></a>
+          <h3>Project Title 5</h3>
+          <p>This project does... I made this project for... I built this project because... The languages I used was HTML, CSS, and Javascript</p>
+          <a href="#" class="live-link">Live Link</a>
+        </div>
+        <div class="item">
+          <a href="https://github.com/BradyJurek" target="_blank"><img src="images/tba.jpg" alt="Coming soon"></a>
+          <h3>Project Title 6</h3>
+          <p>This project does... I made this project for... I built this project because... The languages I used was HTML, CSS, and Javascript</p>
+          <a class="live-link" href="#">Live Link</a>
+        </div>
+      </div>
+    </section>
+        <!-- ABOUT ME SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="wrapper">
+      <div class="image">
+        <img src="images/road.jpg" alt="Myself">
+      </div>
+      <article class="content">
+        <h3>My name is <span>Brady Jurek</span></h3>
+        <p>I am an entry-level Web Developer based out of Tucson, AZ. <br>
+           I am currently enrolled in the Engineering Flex Program at <span><a href="https://www.thinkful.com/">Thinkful</a></span> learning Web Development.
+           I couldn't be happier with my decision to use Thinkful to help me get my career started!
+           I cannot wait to graduate and start my career working with others in a team setting to build websites for individuals or businesses so they can have an online presence.</p>
+           <div class="List">
+             <h4>Things I like outside of Web Development</h4>
+             <ol>
+               <li>Golfing</li>
+               <li>Hiking</li>
+               <li>Netflix</li>
+             </ol>
+           </div>
 
-	<header>
-		<h1>Joey Thinkful</h1>
-		<nav>
-			<ul id="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-</body>
+      </article>
+    </div>
+  </section>
 
+  <hr>
+      <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="wrapper">
+      <div class="info">
+
+      <!-- Adds Icons and has it link to websites in href -->
+        <div class="item">
+          <h3 class="icons-name"><i class="fab fa-github"><a href="https://github.com/BradyJurek"><span class="icons-name">GitHub</span></a></i></h3>
+        </div>
+
+        <div class="item">
+          <h3 class="icons-name"><i class="fab fa-linkedin-in"><a href="https://www.linkedin.com/in/brady-jurek-8a4744204/"><span class="icons-name">LinkedIn</span></a></i></h3>
+        </div>
+
+        <div class="item">
+          <h3><i class="fas fa-envelope-square"><a href="mailto:bradyjurekdev@gmail.com"><span class="icons-name">Email</span></a></i></h3>
+        </div>
+      </div>
+
+    <!-- CONTACT FORM -->
+    <!-- Created a form element that takes in 3 inputs, Full Name, Email, and Message -->
+      <form action="https://formspree.io/f/moqpgjwj" method="POST">
+        <div class="inputBox">
+          <h3>Full Name</h3>
+          <input type="text">
+        </div>
+
+        <div class="inputBox">
+          <h3>Email</h3>
+          <input type="email">
+        </div>
+
+        <div class="inputBox">
+          <h3>Message</h3>
+          <textarea name="name" rows="30" cols="10"></textarea>
+        </div>
+
+        <input type="submit" value="Submit" class="submit">
+      </form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <h3>&copy; copyright @ 2021 by <span>BRADY JUREK</span></h3>
+  </footer>
+  </body>
 </html>
